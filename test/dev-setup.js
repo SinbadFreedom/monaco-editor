@@ -61,7 +61,8 @@
 			if (IS_FILE_PROTOCOL) {
 				resolvedPath = DIRNAME + '/../' + resolvedPath;
 			} else {
-				resolvedPath = '/monaco-editor/' + resolvedPath;
+				//resolvedPath = '/monaco-editor/' + resolvedPath;
+				resolvedPath = '/' + resolvedPath;
 			}
 		} else {
 			if (IS_FILE_PROTOCOL) {
